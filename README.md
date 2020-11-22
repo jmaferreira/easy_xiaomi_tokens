@@ -17,8 +17,9 @@ Make sure you have NodeJS installed:
 
 ## How to use
 
-Clone or download the project from Github then run the following the following commands:
-
+1. Add your Xiaomi devices with the Mi Home app on iOS
+2. Create an unencrypted backup of your iOS device on your computer using iTunes/Finder. In case you are unable to disable encryption you probably have a profile preventing this that enforces certain security policies (like work related accounts). Delete these profiles or use another iOS device.
+3. Download this project from Github then run the following commands:
 
 ```bash
 npm install # install node modules (only required once)
