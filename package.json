@@ -1,0 +1,16 @@
+{
+  "name": "easy_xiaomi_tokens",
+  "version": "1.0.0",
+  "description": "This is a NodeJS application that simplifies the process of obtaining Xiaomi device tokens.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Ferreira",
+  "license": "MIT",
+  "dependencies": {
+    "ibackuptool": "^4.0.1",
+    "sqlite3": "^5.0.0"
+  }
+}
