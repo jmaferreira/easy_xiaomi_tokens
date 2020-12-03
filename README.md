@@ -15,6 +15,7 @@ Make sure you have NodeJS installed:
 - NodeJS (Instructions at https://nodejs.org)
 
 
+
 ## How to use
 
 1. Add your Xiaomi devices with the Mi Home app on iOS
@@ -25,6 +26,24 @@ Make sure you have NodeJS installed:
 npm install # install node modules (only required once)
 npm start
 ```
+
+## Error: EPERM: operation not permitted
+
+If you receive an error when trying to list backups, then it is possible Terminal does not have permission to access the folder where backups are stored. Read the error message for the location, otherwise try to just list the backups manually:
+
+```
+ls "/Users/$(whoami)/Library/Application Support/MobileSync/Backup"
+```
+
+You will see ls: Operation not permitted and know that Terminal does not have permission. Fix by allowing Terminal in Full Disk Access under Security & Privacy. First, close Terminal, and then:
+
+```
+System Preferences -> Security & Privacy -> Privacy -> Full Disk Access -> + -> tick Terminal
+```
+
+Restart Terminal and try again.
+
+More information about this issue at https://www.npmjs.com/package/ibackuptool#terminal-permissions-macos
 
 ## Output
 
