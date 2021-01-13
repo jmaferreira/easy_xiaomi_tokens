@@ -43,7 +43,8 @@ System Preferences -> Security & Privacy -> Privacy -> Full Disk Access -> + -> 
 
 Restart Terminal and try again.
 
-More information about this issue at https://www.npmjs.com/package/ibackuptool#terminal-permissions-macos
+More information about this issue at [https://www.npmjs.com/package/ibackuptool#terminal-permissions-macos
+](https://www.npmjs.com/package/ibackuptool#terminal-permissions-macos)
 
 ## Output
 
